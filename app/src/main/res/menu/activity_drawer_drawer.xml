@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list_especies"
+            android:checked="true"
+            android:icon="@drawable/sprout"
+            android:title="@string/lista_de_esp_cies" />
+        <!--<item
+            android:id="@+id/nav_pic_especies"
+            android:icon="@drawable/photocamera"
+            android:title="Fotografar uma Espécie" />-->
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/localiza_o_das_reas" />
+        <item
+            android:id="@+id/nav_pic_area"
+            android:checkable="false"
+            android:icon="@drawable/photocamera"
+            android:title="@string/fotografar_uma_rea" />
+        <item
+            android:id="@+id/nav_cartilha"
+            android:icon="@drawable/ic_book"
+            android:title="@string/cartilha_manual_de_plantio" />
+        <item
+            android:id="@+id/nav_site"
+            android:checkable="false"
+            android:icon="@drawable/hashtag"
+            android:title="@string/cat_logo_de_esp_cies" />
+        <item
+            android:id="@+id/recharge"
+            android:checkable="false"
+            android:icon="@drawable/database_refresh"
+            android:title="@string/reload" />
+        <item
+            android:id="@+id/nav_terms"
+            android:checkable="false"
+            android:icon="@drawable/ic_terms"
+            android:title="@string/PoliticadePrivacidade" />
+    </group>
+
+</menu>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:screenOrientation="portrait"
+    tools:context=".view.Login">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="120dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toTopOf="@+id/txt_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/e_mail"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/email"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="32dp"
+            android:drawableStart="@drawable/ic_envelope"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/exemplo_viveiro_com"
+            android:includeFontPadding="false"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@id/senha"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#99FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/senha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/txt_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="35dp"
+            android:text="@string/senha"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/senha"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="423dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="162dp"
+            android:drawableStart="@drawable/ic_padlock"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/passHint"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:nextFocusDown="@id/btn_logar"
+            android:paddingEnd="140sp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="#80FFFFFF"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textCursorDrawable="@android:color/background_light"
+            app:layout_constraintBottom_toTopOf="@+id/txt_cad2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/btn_logar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_acessar"
+            android:textCursorDrawable="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/senha" />
+
+        <TextView
+            android:id="@+id/txt_esq_sen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="38dp"
+            android:text="@string/esqueceu_sua_senha"
+            android:textColor="#9BD631"
+            android:textColorHighlight="#9BD631"
+            android:textColorHint="#9BD631"
+            android:textColorLink="#9BD631"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/senha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/senha" />
+
+        <TextView
+            android:id="@+id/txt_cad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tem_alguma_d_vida"
+            android:textColor="#9BD631"
+            android:textColorHighlight="#9BD631"
+            android:textColorHint="#9BD631"
+            android:textColorLink="#9BD631"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/txt_cad2"
+            app:layout_constraintEnd_toEndOf="@+id/txt_cad2"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/txt_cad2" />
+
+        <TextView
+            android:id="@+id/txt_cad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/entenda_como_funciona_o_app"
+            android:textColor="#9BD631"
+            android:textColorHighlight="#9BD631"
+            android:textColorHint="#9BD631"
+            android:textColorLink="#9BD631"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/senha" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/senha" />
+
+        <ImageView
+            android:id="@+id/btn_cad"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/todo"
+            android:onClick="acao_cadastro"
+            app:layout_constraintBottom_toTopOf="@+id/txt_cad"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_logar"
+            app:layout_constraintVertical_bias="0.25"
+            app:srcCompat="@drawable/btn_cad" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

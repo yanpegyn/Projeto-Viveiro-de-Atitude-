@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Viveiro de Atitude</string>
+    <string name="senha">Senha:</string>
+    <string name="senha2">Senha</string>
+    <string name="e_mail" translatable="false">E-mail:</string>
+    <string name="e_mail2" translatable="false">E-mail</string>
+    <string name="cpf" translatable="false">CPF:</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha ?</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="logar">Logar</string>
+    <string name="title_activity_first_screen" translatable="false">FirstScreen</string>
+    <string name="loadingCpf" translatable="false">Loading…</string>
+    <string name="title_activity_drawer" translatable="false">activity_drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="loading" translatable="false">Loading…</string>
+    <string name="loading_email" translatable="false">loading…@</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="passHint" translatable="false">**********</string>
+    <string name="tem_alguma_d_vida">Tem alguma dúvida?</string>
+    <string name="entenda_como_funciona_o_app">Entenda como funciona o App</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="preenha_seus_dados_para_fazer_o_ncadastro_e_come_ar_a_usar_o_app">Preencha seus dados para fazer o\ncadastro e começar a usar o App!</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="jo_o_silva_nascimento">João Silva Nascimento</string>
+    <string name="exemplo_viveiro_com">exemplo@viveiro.com</string>
+    <string name="telefone">Telefone</string>
+    <string name="_00_00000_0000" translatable="false" tools:ignore="TypographyDashes">(00) 00000-0000</string>
+    <string name="confirme_a_senha">Confirme a Senha</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
+    <string name="termos_de_uso">Termos de Uso:</string>
+    <string name="termos_de_uso2">Termos de Uso</string>
+    <string name="aceito">Aceito</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="imagens_das_reas">Imagens das Áreas</string>
+    <string name="sair">Sair</string>
+    <string name="acesse_sua_conta">Acesse Sua Conta</string>
+    <string name="digite_seu_e_mail_e_senha_na_tela_n_de_acesso_e_clique_no_bot_o_acessar_npara_come_ar_a_usar_o_aplicativo">Digite seu E-mail e senha na tela\nde acesso e clique no botão Acessar\nPara começar a usar o aplicativo.</string>
+    <string name="tire_fotos_das_mudas_plantadas">Tire Fotos das Mudas Plantadas</string>
+    <string name="fotografe_suas_mudas_e_cadastre_n_sua_localiza_o_no_aplicativo">Fotografe suas mudas e cadastre\nsua localização no aplicativo.</string>
+    <string name="veja_informa_es_de_suas_mudas">Veja Informaçōes de suas Espécies</string>
+    <string name="veja_uma_lista_de_todas_suas_n_mudas_cadastradas_e_obtenha_varias_informa_es_n_como_a_localiza_o_e_detalhes_da_esp_cie">Veja uma lista de todas suas espécies\ncadastradas e obtenha varias informações,\ncomo a localização e detalhes da espécie.</string>
+    <string name="informa_es">INFORMAÇÕES</string>
+    <string name="informa_es_ecologicas">Informações Ecologicas</string>
+    <string name="ocorr_ncia">Ocorrência</string>
+    <string name="madeira">Madeira</string>
+    <string name="utilidade">Utilidade</string>
+    <string name="fenologia">Fenologia</string>
+    <string name="forma_de_obten_o_de_semente">Forma de obtenção de semente</string>
+    <string name="produ_o">Produção</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="imagens">Imagens</string>
+    <string name="ola">Olá\u0020</string>
+    <string name="pelo_nosso_app_voc_pode_cadastrar_e">Pelo nosso app, você pode cadastrar e</string>
+    <string name="obter_informa_es_de_todas_suas_mudas">obter informações de todas suas espécies.</string>
+    <string name="busque_por_uma_muda">Busque por uma espécie</string>
+    <string name="esp_cies_cadastradas">Espécies Cadastradas</string>
+    <string name="eu_aceito">Eu Aceito.</string>
+    <string name="reas">Áreas</string>
+    <string name="fotos">Fotos</string>
+    <string name="lista_de_esp_cies">Lista de Espécies</string>
+    <string name="localiza_o_das_reas">Localização das Áreas</string>
+    <string name="fotografar_uma_rea">Fotografar uma Área</string>
+    <string name="cartilha_manual_de_plantio">Cartilha Manual de Plantio</string>
+    <string name="cat_logo_de_esp_cies">Catálogo de Espécies</string>
+    <string name="NohInternetparacarregarosite">Não há Internet para carregar o site!</string>
+    <string name="NohAreasaExibir">Não há Areas a Exibir</string>
+    <string name="Desejarealmentesair">Deseja realmente sair?</string>
+    <string name="Sim">Sim</string>
+    <string name="Nao">Não</string>
+    <string name="VerFotos">Ver Fotos</string>
+    <string name="Carregando">Carregando…</string>
+    <string name="CarregandoPorFavorAguarde">Carregando… Por Favor Aguarde…</string>
+    <string name="Casoqueiracontinuarestejadeacordocomnossostermos">Caso queira continuar esteja de acordo com nossos termos.</string>
+    <string name="Erroaosalvarestadodostermos">Erro ao salvar estado dos termos!</string>
+    <string name="PorFavorseconecteInternet">Por Favor se conecte à Internet!</string>
+    <string name="EmailSenhaInvlidos">E-mail/Senha Inválidos!</string>
+    <string name="Falhaaobaixarlistadeestados">Falha ao baixar lista de estados</string>
+    <string name="Falhaaobaixarlistadecidades">Falha ao baixar lista de cidades</string>
+    <string name="FalhaaoCadastrar">Falha ao Cadastrar!</string>
+    <string name="Preenchatodososcampos">Preencha todos os campos!</string>
+    <string name="Usuriojcadastrado">Usuário já cadastrado!</string>
+    <string name="AssenhasnoCorrespondem">As senhas não Correspondem!</string>
+    <string name="SenhaMuitoFraca">Senha Muito Fraca! Insira uma com tamanho</string>
+    <string name="SenhaPadrao">A senha não pode ser:</string>
+    <string name="TelefoneInvlido">Telefone Inválido!</string>
+    <string name="EmailInvlido">Email Inválido!</string>
+    <string name="Nofoipossivelusaracmera">Desculpe! Não foi possivel usar a câmera</string>
+    <string name="ConcedaasPermiesnovamente">Conceda as Permissões novamente</string>
+    <string name="PorFavorLigueaFunoLocalizao">Por Favor, Ligue a Função Localização</string>
+    <string name="OusuriocancelouaCapturadeimagem">O usuário cancelou a Captura de imagem</string>
+    <string name="DesculpeFalhaaocapturaraimagem">Desculpe! Falha ao capturar a imagem</string>
+    <string name="ImagemCapturadacomSucesso">Imagem Capturada com Sucesso!</string>
+    <string name="FalhaaopegarsuaLocalizao">Falha ao pegar sua Localização</string>
+    <string name="Erroaoacessarcache">Erro ao acessar cache</string>
+    <string name="Compartilharcom">Compartilhar com</string>
+    <string name="PorFavorAceite">Por Favor Aceite Tudo!</string>
+    <string name="DesejafazerLogoff">Deseja fazer Logoff?</string>
+    <string name="locaFoto">\n\nLocal da Foto:\n</string>
+    <string name="compespecie">espécie</string>
+    <string name="imgde">Imagem de</string>
+    <string name="area">área.</string>
+    <string name="nenhumaEspecie">Nenhuma espécie, Login Inválido!</string>
+    <string name="reload">Sincronizar dados</string>
+    <string name="NohInternetparareload">Não há Internet para sincronizar os dados!</string>
+    <string name="ParaContinuarAltereSuaSenha">Para continuar altere sua senha!</string>
+    <string name="ErroAoAlterarSenha">Desculpe, erro ao alterar sua senha.</string>
+    <string name="DadosInconsistentes">Desculpe, dados inconsistentes, conecte-se à Internet para tentar fazer o download novamente.</string>
+    <string name="internetInstavel">Internet instável, o aplicativo ficará offline até ser aberto novamente.</string>
+    <string name="PoliticadePrivacidade">Política de Privacidade</string>
+</resources>
